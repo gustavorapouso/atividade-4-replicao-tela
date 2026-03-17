@@ -1,1 +1,12 @@
+.title{
+    background-color: rgb(202, 200, 200);
+    
+}
+.amarelo{
+    width: 100px;
+    background-color: rgb(216, 216, 7);
+}
 
+.flex {
+    display: flex;
+}
