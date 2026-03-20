@@ -1,18 +1,48 @@
 .title{
     background-color: rgb(202, 200, 200);
-    
+    border-bottom: rgb(216, 216, 7);
 }
 .amarelo{
-    width: 100px;
+    position: sticky;
+    padding: 12px;
     background-color: rgb(216, 216, 7);
+    background-image: repeating-linear-gradient(140deg, #feee8a, #feee8a 10px, #f1cf0b 10px, #f1cf0b 20px);
 }
 
 .flex {
     display: flex;
 }
 
-.table{
-    
+
+.coluna{
+    width: 300px;
+}
+
+.gap{
+    gap: 10px;
+}
+
+
+
+.miniBox{
     border: 1px solid black;
+    background-color: rgba(216, 215, 215, 0.404);
+    
+}
+
+.aba{
+    display: flex;
+}
+
+table, th, tr, td{
+    border: 1px solid black;
+}
+
+th{
+    background-color: rgb(197, 194, 194);
+}
+
+.input{
+    height: 20px;
     
 }

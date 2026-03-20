@@ -1,0 +1,74 @@
+section {
+    display: flex;
+}
+.esquerda {
+    width: 59%;
+    margin: 15;
+    background-color: rgb(183, 230, 241);
+    display: flex;
+}
+
+.direita {
+    width: 39%;
+    margin: 1%;
+    background-color: rgb(183, 230, 241);
+}
+
+#logo-robo{
+    width: 15%;
+
+}
+
+#logo-robo img{
+    width: 100%;
+}
+
+.borda{
+    color: white;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+#borda-2{
+    color: white;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.processado{
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(17, 185, 17);
+}
+
+#analise{
+    color: white;
+    border-radius: 5px;
+    background-color: yellow ;
+}
+
+#pendente{
+    color: white;
+    border-radius: 5px;
+    background-color: red ;
+}
+
+
+.cor{
+    color: blue;
+    
+}
+
+.cima{
+    display: flex;
+    gap: 200px;
+}
+
+.icone{
+    margin: left;
+}
+
+.box-2{
+    border-radius: 10px;
+    background-color: white;
+}
